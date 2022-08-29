@@ -1,0 +1,63 @@
+/C01/session00002/u00003s00002_hw000011.svc
+/C01/session00002/u00003s00002_hw000012.svc
+/C02/session00001/u00004s00001_hw000011.svc
+/C02/session00001/u00004s00001_hw000012.svc
+/C03/session00001/u00005s00001_hw000011.svc
+/C03/session00001/u00005s00001_hw000012.svc
+/C04/session00001/u00006s00001_hw000011.svc
+/C04/session00001/u00006s00001_hw000012.svc
+/C05/session00001/u00007s00001_hw000011.svc
+/C05/session00001/u00007s00001_hw000012.svc
+/C06/session00001/u00008s00001_hw000011.svc
+/C06/session00001/u00008s00001_hw000012.svc
+/C07/session00001/u00009s00001_hw000011.svc
+/C07/session00001/u00009s00001_hw000012.svc
+/C08/session00001/u00010s00001_hw000011.svc
+/control1/session00001/u00004s00001_hw00001.svc
+/control2/session00001/u00005s00001_hw00001.svc
+/control3/session00001/u00006s00001_hw00001.svc
+/control4/session00001/u00007s00001_hw00002.svc
+/control6/session00001/u00009s00001_hw00001.svc
+/control7/session00001/u00010s00001_hw00001.svc
+/T012/session00001/u00005s00001_hw00001.svc
+/control1/session00001/u00004s00001_hw00002.svc
+/control2/session00001/u00005s00001_hw00002.svc
+/control3/session00001/u00006s00001_hw00002.svc
+/control4/session00001/u00007s00001_hw00001.svc
+/control6/session00001/u00009s00001_hw00002.svc
+/control7/session00001/u00010s00001_hw00002.svc
+/T001/session00001/u00005s00001_hw00001.svc
+/T002/session00001/u00006s00001_hw00001.svc
+/T005/session00001/u00009s00001_hw00001.svc
+/T006/session00001/u00010s00001_hw00001.svc
+/T007/session00001/u00012s00001_hw00002.svc
+/T008/session00001/u00013s00001_hw00001.svc
+/T009/session00001/u00014s00001_hw00001.svc
+/T010/session00001/u00015s00001_hw00002.svc
+/T011/session00001/u00004s00001_hw00002.svc
+/T012/session00001/u00005s00001_hw00002.svc
+/T013/session00001/u00006s00001_hw00002.svc
+/T014/session00001/u00007s00001_hw00001.svc
+/T015/session00001/u00008s00001_hw00002.svc
+/T018/session00001/u00009s00001_hw00002.svc
+/T020/session00001/u00011s00001_hw00001.svc
+/T021/session00001/u00014s00001_hw00001.svc
+/T020/session00001/u00011s00001_hw00001.svc
+/T023/session00001/u00016s00001_hw00002.svc
+/T025/session00001/u00017s00001_hw00002.svc
+/T026/session00001/u00019s00001_hw00002.svc
+/T027/session00001/u00020s00001_hw00002.svc
+/T028/session00001/u00021s00001_hw00002.svc
+/T029/session00001/u00022s00001_hw00002.svc
+
+% data          - matrix with the SVC data
+% data(:,1)     - X coordinate
+% data(:,2)     - Y coordinate
+% data(:,3)     - time stamp
+% data(:,4)     - on/off state
+% data(:,5)     - azimuth
+% data(:,6)     - altitude
+% data(:,7)     - pressure
+
+% espiral <- read.csv(file="u00003s00002_hw00001.svc", header = FALSE, skip = 1, sep = " ")
+% plot(espiral$V1, espiral$V2, asp=1, type="l")
